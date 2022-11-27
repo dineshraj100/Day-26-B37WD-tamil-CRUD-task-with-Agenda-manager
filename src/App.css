@@ -1,0 +1,50 @@
+body{
+  overflow-x: hidden;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.mark-done{
+  text-decoration: line-through;
+}
+.carousel-inner{
+  height:400px;
+
+}
+.b{
+  position: relative;
+  left:30px;
+  height:25px;
+  border-radius:50% ;
+  border:none;
+}
+.img-fluid{
+  height:400px !important;
+  width:100vw;
+  object-fit: cover;
+  object-position:0px -400px;
+}
+.card{
+  margin-top: 40px;
+}
+.navbar{
+  background-color: rgba(250, 249, 248, 0.5);
+}
+
+li{
+  text-align: justify;
+  margin-top: 10px;
+  margin-right: 5px;
+  text-align: center;
+  background-color: antiquewhite;
+  width:200px;
+  border-radius: 20px;
+}
+.btn-close{
+  position:relative;
+  left:40px;
+  width: 5px;
+  
+}
